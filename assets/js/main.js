@@ -32,4 +32,10 @@ $(document).ready(function() {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 
+  if(location.hash==="#open"){
+    $(".navigation--social").css("margin-left","0px");
+    $(".panel-cover").addClass("panel-cover--collapsed");
+    // Uno.search.form("show");
+  }
+
 });

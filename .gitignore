@@ -1,3 +1,5 @@
+.DS_Store
+
 # vim ~tmp files
 *.swp
 *.un~
